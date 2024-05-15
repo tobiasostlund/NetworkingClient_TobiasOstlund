@@ -26,7 +26,7 @@ public class Main {
 
                 BufferedReader stdIn = new BufferedReader(new InputStreamReader(System.in));
 
-                System.out.println("Type our name. type Bye to exit");
+                System.out.println("Type your name. Type Bye to exit. ");
 
                 msg = stdIn.readLine().trim();
                 pw.println(msg);
